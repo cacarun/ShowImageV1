@@ -1,0 +1,11 @@
+<resources>
+
+    <dimen name="FONT_SIZE_15">15sp</dimen>
+    <dimen name="FONT_SIZE_18">18sp</dimen>
+
+    <dimen name="MARGIN_BOTTOM_10">10dp</dimen>
+
+    <dimen name="LAYOUT_SIZE_20">20dp</dimen>
+    
+    <dimen name="FONT_TEXT_LINE_SPACE">21sp</dimen>
+</resources>

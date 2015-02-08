@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/guide_pic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/guide_pic" />
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:padding="7dip" >
+
+        <Button 
+            android:id="@+id/guide_btn_vip"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/vip_entrance"
+            android:background="@drawable/guide_btn_blue"
+            android:textColor="@color/COMMON_FONT_COLOR_WHITE" 
+            style="@style/guide_btn_style" />
+
+        <Button 
+            android:id="@+id/guide_btn_common"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:text="@string/common_entrance"
+            android:background="@drawable/guide_btn_white"
+            android:textColor="@color/COMMON_FONT_COLOR_BLACK" 
+            style="@style/guide_btn_style" />
+    </LinearLayout>
+</RelativeLayout>

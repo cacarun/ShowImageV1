@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_containter"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.cjw.showimagev1.view.CommonWaitView
+        android:id="@+id/comm_waitview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </com.cjw.showimagev1.view.CommonWaitView>
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:text="Cancel" 
+        android:visibility="gone" />
+
+</RelativeLayout>
